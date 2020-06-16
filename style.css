@@ -1,1 +1,38 @@
 body { font-family: 'Roboto Condensed', sans-serif; }
+
+.main{
+    background-color: rgb(65, 62, 62);
+    height: 100vh;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .profile-header {
+      font-size: 3rem;
+      font-family: monospace;
+      color: #e1e6e9;
+  }
+
+  .profile-details {
+      font-family: monospace;
+      line-height: 1.5em;
+      color: #e1e6e9;
+  }
+
+  .social-net {
+      display: flex;
+      justify-content: center;
+  }
+
+  a {
+      color: rgb(168, 164, 164);
+  }
+  
+  a:hover {
+      color: honeydew;
+  }
