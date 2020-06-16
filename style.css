@@ -37,9 +37,7 @@ body { font-family: 'Roboto Condensed', sans-serif; }
       font-family: monospace;
   }
   
-  a:hover {
-      color: honeydew;
-  }
+  a:hover { color: honeydew; }
 
   img { max-width: 100%;}
 
@@ -73,7 +71,32 @@ body { font-family: 'Roboto Condensed', sans-serif; }
    color: lavender;
   }
 
+  .title {
+      font-size: 1.5rem;
+  }
+
   .social {
       display: flex;
       justify-content: space-around;
+  }
+
+  @media (max-width: 1024px) {
+    .first-img, .second-img, .third-img { height: 60vh;}
+  }
+
+
+  @media (max-width: 768px) {
+  .row-two { grid-template-columns: 1fr; }
+
+.main {
+  position: unset;
+  height:  60vh;
+    }
+
+.first-img, .second-img, .third-img { height: 60vh;}
+  }
+
+  @media (max-width: 576px) {
+    .main { height:  100vh; }
+    .first-img, .second-img, .third-img { height: 70vh;}
   }
