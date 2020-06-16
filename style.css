@@ -2,7 +2,10 @@ body { font-family: 'Roboto Condensed', sans-serif; }
 
 .main{
     background-color: rgb(65, 62, 62);
-    height: 100vh;
+     padding: .5em;
+     position: sticky;
+     top: 0;
+     height: 100vh;
 }
 
 .avatar {
@@ -31,8 +34,46 @@ body { font-family: 'Roboto Condensed', sans-serif; }
 
   a {
       color: rgb(168, 164, 164);
+      font-family: monospace;
   }
   
   a:hover {
       color: honeydew;
+  }
+
+  img { max-width: 100%;}
+
+  .first-img {
+      background-color: #EBF50B;
+      height: 100vh;
+  }
+
+  .second-img {
+   background-color: #E8E8E8;
+   height: 100vh;
+  }
+
+  .third-img {
+  background-color: #FA041B;
+  height: 100vh;
+  }
+
+  .row-two {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
+  .min-row {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+
+  .current {
+   line-height: 1.5em;
+   color: lavender;
+  }
+
+  .social {
+      display: flex;
+      justify-content: space-around;
   }
