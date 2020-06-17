@@ -39,6 +39,8 @@ body { font-family: 'Roboto Condensed', sans-serif; }
   
   a:hover { color: honeydew; }
 
+  .txt-role { color: rgb(168, 164, 164); }
+
   img { max-width: 100%;}
 
   .first-img {
@@ -98,5 +100,6 @@ body { font-family: 'Roboto Condensed', sans-serif; }
 
   @media (max-width: 576px) {
     .main { height:  100vh; }
-    .first-img, .second-img, .third-img { height: 70vh;}
+    .first-img { height: 75vh;}
+    .second-img, .third-img { height: 65vh;}
   }
