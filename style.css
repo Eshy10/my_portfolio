@@ -46,16 +46,19 @@ body { font-family: 'Roboto Condensed', sans-serif; }
   .first-img {
       background-color: #EBF50B;
       height: 100vh;
+      overflow: hidden;
   }
 
   .second-img {
    background-color: #E8E8E8;
    height: 100vh;
+   overflow: hidden;
   }
 
   .third-img {
   background-color: #FA041B;
   height: 100vh;
+  overflow: hidden;
   }
 
   .row-two {
@@ -80,6 +83,21 @@ body { font-family: 'Roboto Condensed', sans-serif; }
   .social {
       display: flex;
       justify-content: space-around;
+  }
+  
+  .first-img img, .second-img img, .third-img img {
+    transition: transform .5s ease-in-out;
+    transform-origin: 0 0;
+
+  }
+  
+  .first-img:hover img, .second-img:hover img, .third-img:hover img {
+    transform: scale(1.1) translateY(-10%);
+    filter: grayscale(100%);
+  }
+
+  .first-img:hover, .second-img:hover, .third-img:hover {
+    filter: grayscale(100%);
   }
 
   @media (max-width: 1024px) {
