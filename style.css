@@ -8,6 +8,15 @@ body { font-family: 'Roboto Condensed', sans-serif; }
      height: 100vh;
 }
 
+.move {
+    animation: move 2s;
+}
+
+@keyframes move {
+    from { margin-right: 0px; }
+    to { margin-right: 50px; }
+  }
+
 .avatar {
     vertical-align: middle;
     width: 150px;
