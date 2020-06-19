@@ -109,6 +109,29 @@ body { font-family: 'Roboto Condensed', sans-serif; }
     filter: grayscale(100%);
   }
 
+
+ footer {
+   background-color: rgb(65, 62, 62);
+   color: rgb(168, 164, 164)
+  }
+
+  footer ul {
+      display: flex;
+      justify-content: center;
+  }
+
+  .top {
+    font-family: monospace;
+      margin-top: 2em;
+      text-align: center;
+      color: rgb(168, 164, 164);
+  }
+
+  .bottom li {
+      margin-bottom: 2em;
+      margin-right: .5em;
+  }
+
   @media (max-width: 1024px) {
     .first-img, .second-img, .third-img { height: 60vh;}
   }
@@ -129,4 +152,10 @@ body { font-family: 'Roboto Condensed', sans-serif; }
     .main { height:  100vh; }
     .first-img { height: 75vh;}
     .second-img, .third-img { height: 65vh;}
+    footer ul {
+       flex-direction: column;
+       align-items: center;
+       margin-top: .5em;
+    }
+
   }
